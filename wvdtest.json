@@ -23,7 +23,7 @@
 		},
 		"ScriptUri": {
 			"type": "string",
-			"defaultValue": "https://raw.githubusercontent.com/mejdm5/aib_dev/main/powershell/aibtest.ps1?token=AONOCSQTO7B335N4IA2UU627TAQDG",
+			"defaultValue": "https://raw.githubusercontent.com/mejdm5/aib_dev/main/powershell/aibtest.ps1",
 			"metadata": {
 				"description": "Location of powershell script to customize your image"
 			}
