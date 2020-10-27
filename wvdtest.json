@@ -23,14 +23,14 @@
 		},
 		"ScriptUri": {
 			"type": "string",
-			"defaultValue": "https://raw.githubusercontent.com/Everink/AzureImageBuilder/master/Scripts/AzureImageBuilder.ps1",
+			"defaultValue": "https://raw.githubusercontent.com/mejdm5/aib_dev/main/powershell/aibtest.ps1?token=AONOCSQTO7B335N4IA2UU627TAQDG",
 			"metadata": {
 				"description": "Location of powershell script to customize your image"
 			}
 		},
 		"SIGImageDefinitionId": {
 			"type": "string",
-			"defaultValue": "",
+			"defaultValue": "/subscriptions/d0464661-823f-4a94-a490-5d01938db685/resourceGroups/swl-usea-rg-aib-dev-001/providers/Microsoft.Compute/galleries/swl_usea_sig_dev_001/images/swl-img-def-aib-dev-001",
 			"metadata": {
 				"description": "Id of Shared Image Gallery to distribute image to, eg: /subscriptions/<subscriptionID>/resourceGroups/<SIG resourcegroup>/providers/Microsoft.Compute/galleries/<SIG name>/images/<image definition>"
 			}
